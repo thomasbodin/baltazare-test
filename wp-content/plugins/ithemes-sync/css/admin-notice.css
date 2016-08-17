@@ -1,0 +1,53 @@
+#ithemes-sync-notice {
+	background: #F3FCE6  url('../images/sync-icon.png') .85em center no-repeat;
+	border: 1px solid #D8E9C1;
+	border-bottom-width: 2px;
+	border-radius: 3px;
+	color: #44654E;
+	font-size: 14px;
+	line-height: 1.6;
+	margin: 1em 0;
+	padding: 1em .75em 1em 5em;
+	position: relative;
+}
+
+#ithemes-sync-notice a {
+	color: #495D68;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#ithemes-sync-notice .ithemes-sync-notice-button {
+	background: #D8E9C1;
+	border: 1px solid #B7CC9B;
+	border-bottom-width: 2px;
+	border-radius: 3px;
+	display: inline-block;
+	margin: -8px 0;
+	padding: 6px 14px;
+	-webkit-transition: all .1s linear;
+	-moz-transition: all .1s linear;
+	transition: all .1s linear;
+}
+#ithemes-sync-notice .ithemes-sync-notice-button:hover {
+	background: #F9FFF0;
+}
+
+#ithemes-sync-notice .ithemes-sync-notice-dismiss,
+#ithemes-sync-notice .ithemes-sync-notice-hide {
+	border: 1px solid transparent;
+	border-radius: 3px;
+	display: inline-block;
+	float: right;
+	margin: -8px 0;
+	padding: 6px 14px;
+	-webkit-transition: all .1s linear;
+	-moz-transition: all .1s linear;
+	transition: all .1s linear;
+}
+#ithemes-sync-notice .ithemes-sync-notice-dismiss:hover,
+#ithemes-sync-notice .ithemes-sync-notice-hide:hover {
+	background: #D8E9C1;
+	border: 1px solid #B7CC9B;
+	border-bottom-width: 2px;
+}

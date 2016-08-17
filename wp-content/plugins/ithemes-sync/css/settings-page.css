@@ -1,0 +1,195 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700');
+
+
+.ithemes-sync-wrapper {
+	font-family: 'Open Sans', helvetica, arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 2em;
+	width: 100%;
+	max-width: 900px;
+}
+
+.ithemes-sync-wrapper p {
+	margin: 1em 0;
+}
+
+.ithemes-sync-wrapper h2,
+.ithemes-sync-wrapper h3,
+.ithemes-sync-wrapper h4 {
+	color: #555555;
+	font-weight: 300;
+	margin: 1em 0;
+}
+
+.ithemes-sync-wrapper h2 {
+	font-family: 'Open Sans', helvetica, arial, sans-serif;
+	font-size: 2em;
+	line-height: 1.5;
+	margin: .5em 0;
+	padding: 0;
+}
+
+.ithemes-sync-wrapper h3 {
+	font-size: 1.5em;
+	margin: .5em 0;
+}
+
+
+.ithemes-sync-wrapper .message {
+	border: none;
+	border-radius: 0;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	margin: 0 0 2em;
+	padding: 1em 2em;
+}
+.ithemes-sync-wrapper .success {
+	background: #EBF6D7;
+	border: 1px solid #86a94a;
+}
+
+.ithemes-sync-wrapper .error {
+	background: #FFEBE8;
+	border: 1px solid #daa69e;
+}
+
+.ithemes-sync-manage-users,
+.ithemes-sync-authorize {
+	background: #FFF;
+	border: 1px solid #E5E5E5;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	margin:2em 0;
+	padding: 1em 2em;
+}
+
+.ithemes-sync-button {
+	background: #a8d657;
+	border: none;
+	border-bottom: 3px solid #86a94a;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	clear: both;
+	color: #13350a;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1em;
+	font-weight: 700;
+	margin-top: 1em;
+	outline: none;
+	padding: .75em 3em;
+	text-align: center;
+	text-decoration: none;
+}
+
+.ithemes-sync-button:hover {
+	background: #B8E170;
+	color: #13350a;
+}
+
+#ithemes-sync-authenticate {
+	margin: 1em 0;
+}
+#ithemes-sync-authenticate input {
+	border: 1px solid #C7C7C7;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin: 1em 0 .5em 0;
+}
+#ithemes-sync-authenticate input[type="text"],
+#ithemes-sync-authenticate input[type="password"] {
+	border: 1px solid #C7C7C7;
+	display: block;
+	font-size: 1.2em;
+	margin-top: 0;
+	padding: .5em .75em;
+}
+
+#ithemes-sync-authenticate input[type="submit"] {
+	background: #a8d657;
+	border: none;
+	border-bottom: 3px solid #86a94a;
+	clear: both;
+	color: #13350a;
+	cursor: pointer;
+	display: block;
+	font-size: 1em;
+	font-weight: 700;
+	margin-top: 2em;
+	outline: none;
+	padding: .75em 3em;
+}
+#ithemes-sync-authenticate input[type="submit"]:hover {
+	background: #B8E170;
+}
+
+#ithemes-sync-authenticate input[type="submit"]:active {
+	border-bottom: 3px solid #B8E170;
+	-webkit-box-shadow: inset 0px 2px 3px #86A94A;
+	-moz-box-shadow: inset 2px 3px #86A94A;
+	box-shadow: inset 2px 3px #86A94A
+}
+#ithemes-sync-authenticate label {
+	font-size: .875em;
+	font-weight: 700;
+	padding-left: 5px;
+}
+
+.ithemes-sync-users {
+	border: 1px solid #ececec;
+	margin-bottom: 1em;
+	padding: 1em 1.5em 2em 1.5em;
+}
+.ithemes-sync-users + .ithemes-sync-users {
+	margin-top: 2em;
+}
+
+.ithemes-sync-valid-users {
+	border-left: 10px solid #A8D657;
+}
+
+.ithemes-sync-invalid-users {
+	border-left: 10px solid #E86A6A;
+}
+
+.ithemes-sync-users h4 {
+	font-size: 1.125em;
+	padding-left: .75em;
+}
+
+.ithemes-sync-users ul {
+	border: 1px solid #ebebeb;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0;
+}
+
+.ithemes-sync-users li {
+	border-bottom: 1px solid #ebebeb;
+	margin: 0;
+	overflow: hidden;
+	padding: .5em 1em;
+}
+.ithemes-sync-users ul li:hover {
+	background: #f5f5f5;
+}
+
+.ithemes-sync-users li .user {
+	color: #666;
+	font-weight: 700;
+	float: left;
+	max-width: 50%;
+}
+
+.ithemes-sync-users li .deauthenticate {
+	float: right;
+}
+
+.ithemes-sync-users li .deauthenticate a {
+	color: #e86a6a;
+	text-decoration: none;
+}

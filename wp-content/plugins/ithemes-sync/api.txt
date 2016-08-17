@@ -1,0 +1,60 @@
+#### Notices ####
+
+Sync can receive notifications from other projects. These notifications are of two kinds: normal and urgent.
+
+
+## Normal Notices ##
+
+Normal notices are for providing information that is not urgent but should be made note of when an admin is maintaining the site. They are sent to the server when the server makes status requests or when specifically requesting notices from the site.
+
+Example:
+
+function backup_plugin_add_notices( $arguments ) {
+	$data = array(
+		'last_backup'               => 1394859600,
+		'last_backup_diff_from_now' => 988402,
+	);
+	
+	// The verbose argument can be checked for in order to provide additional information that may not always be necessary.
+	if ( ! empty( $arguments['verbose'] ) ) {
+		$data['last_backup_type'] = 'full';
+	}
+	
+	ithemes_sync_add_notice( 'backup_plugin', 'no_recent_backups', 'No recent backups', 'It has been more than a week since the last backup.', $data );
+	
+	
+	// Plugin-specific arguments could be provided to enable additional notices that would be disabled by default.
+	if ( ! empty( $arguments['backup_plugin_show_extra_notices'] ) ) {
+		ithemes_sync_add_notice( 'backup_plugin', 'superfluous_notice', 'Superfluous notice', 'I ran out of good ideas, so this is merely an example.' );
+		// Note how the $data argument is optional in the call above.
+	}
+}
+add_action( 'ithemes_sync_add_notices', 'backup_plugin_add_notices' );
+
+Details about the ithemes_sync_add_notice function:
+* @param string $source Uniquely identifies the project that is sending the notice.
+* @param string $id Identifies the type of notice. This is to allow the server to differentiate different kinds of notices without having to parse the message.
+* @param string $subject A brief subject description of the notice that is fit for presentation to Sync users.
+* @param string $message A message that is fit for presentation to Sync users.
+* @param array $data Optional. Data that is relevant to the notice. For notices that may be best presented in a graphical manner, this field could be used to send data used to construct the graphic.
+* @return bool True. Currently, it always returns true.
+
+
+## Urgent Notices ##
+
+Urgent notices are sent immediately to the server so that the administator can be notified directly. These notices are to be used when something important happens on the site that requires immediate attention.
+
+Example:
+
+function security_plugin_send_urgent_notice() {
+	$result = ithemes_sync_send_urgent_notice( 'security_plugin', 'intruder_detected', 'Intruder detected', 'An intruder has been detected on the site.' );
+}
+add_action( 'init', 'security_plugin_send_urgent_notice' );
+
+Details about the ithemes_sync_send_urgent_notice function:
+* @param string $source Uniquely identifies the project that is sending the notice.
+* @param string $id Identifies the type of notice. This is to allow the server to differentiate different kinds of notices without having to parse the message.
+* @param string $subject A brief subject description of the notice that is fit for presentation to Sync users.
+* @param string $message A message that is fit for presentation to Sync users.
+* @param array $data Optional. Data that is relevant to the notice. For notices that may be best presented in a graphical manner, this field could be used to send data used to construct the graphic.
+* @return bool|WP_Error True on successful receipt by the server. WP_Error object otherwise. In the event of an error, the notice is queued for sending to the server when it makes a status or notice request.

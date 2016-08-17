@@ -1,0 +1,1 @@
+Structure ATOMIC DESIGN : http://bradfrost.com/blog/post/atomic-web-design/

@@ -1,0 +1,28 @@
+.cookie-cnil {
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    border-top: 1px solid #e4e4e4;
+    background-color: #fff;
+    padding: 7px 20px;
+    text-align: center;
+    color: #666;
+    font-size: .9em;
+
+    &__link {
+        text-decoration: underline;
+    }
+
+    &__btn {
+        display: inline;
+        margin-left: 15px;
+        border-radius: 3px;
+        background-color: #000080;
+        cursor: pointer;
+        padding: 4px 10px;
+        color: #fff;
+    }
+}

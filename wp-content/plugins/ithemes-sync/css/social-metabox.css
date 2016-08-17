@@ -1,0 +1,52 @@
+#ithemes-social {
+	margin: 1em 0;
+}
+#ithemes-social .ithemes-social-header {
+	border-bottom: 1px solid #ddd;
+	overflow:hidden;
+	padding: 0 0 5px 0;
+}
+#ithemes-social .ithemes-social-header h3 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	float:left;
+}
+#ithemes-social .ithemes-social-header a {
+	float:right;
+}
+#ithemes-social .ithemes-social-accounts {
+	margin: 0;
+}
+#ithemes-social .ithemes-social-accounts li{
+	border-bottom: 1px solid #e9e9e9;
+	padding: 5px 0;
+	margin: 0;
+	word-break: break-all;
+}
+#ithemes-social .ithemes-social-edit-content {
+	cursor:pointer;
+	float: right;
+}
+#ithemes-social .ithemes-social-account-content {
+	overflow: hidden;
+	margin: 0 0 .5em 0;
+}
+#ithemes-social .ithemes-social-account-content textarea {
+	margin: 1em 0 .25em 0;
+}
+#ithemes-social .ithemes-social-template-tags {
+	font-size: 11px;
+	line-height: 1.1;
+	float:left;
+}
+#ithemes-social .ithemes-social-char-count {
+	float:right;
+}
+#ithemes-social .ithemes-social-char-count.over {
+	color: red;
+}
+#ithemes-social .it-social-notice {
+	background: #f1f1f1;
+	padding: 5px;
+	margin: 5px 0;
+}

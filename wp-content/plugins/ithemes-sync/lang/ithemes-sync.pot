@@ -1,0 +1,580 @@
+# Copyright (C) 2015 iThemes Sync
+# This file is distributed under the same license as the iThemes Sync package.
+msgid ""
+msgstr ""
+"Project-Id-Version: iThemes Sync 1.8.3\n"
+"Report-Msgid-Bugs-To: http://ithemes.com/support/\n"
+"POT-Creation-Date: 2015-11-05 17:55:35+00:00\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin.php:118
+msgid ""
+"iThemes Sync is active. <a class=\"ithemes-sync-notice-button\" href=\"%s"
+"\">Manage Sync</a> <a class=\"ithemes-sync-notice-dismiss\" href=\"#\">×</a>"
+msgstr ""
+
+#: admin.php:132
+msgid ""
+"iThemes Sync is almost ready. <a class=\"ithemes-sync-notice-button\" href="
+"\"%s\">Set Up Sync</a> <a class=\"ithemes-sync-notice-hide\" href=\"#\">×</a>"
+msgstr ""
+
+#: admin.php:147
+msgid ""
+"iThemes Sync will show for your user for the next %1$s. Click <a href=\"%2$s"
+"\">here</a> to hide iThemes Sync again."
+msgstr ""
+
+#: admin.php:157
+msgid "iThemes Sync is now hidden from your user again."
+msgstr ""
+
+#. #-#-#-#-#  ithemes-sync.pot (iThemes Sync 1.8.3)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin.php:168 admin.php:174 settings-page.php:270
+msgid "iThemes Sync"
+msgstr ""
+
+#: admin.php:202 lib/updater/admin.php:181
+msgid "Manage iThemes product licenses to receive automatic upgrade support"
+msgstr ""
+
+#: admin.php:202 lib/updater/admin.php:181
+msgid "License"
+msgstr ""
+
+#: client-dashboard.php:350
+msgctxt "Welcome panel"
+msgid "Welcome"
+msgstr ""
+
+#: init.php:21
+msgid ""
+"Only one iThemes Sync plugin can be active at a time. The plugin at <code>"
+"%1$s</code> is running while the plugin at <code>%2$s</code> was skipped in "
+"order to prevent errors. Please deactivate the plugin that you do not wish "
+"to use."
+msgstr ""
+
+#: lib/updater/admin.php:140
+msgid ""
+"To receive automatic updates for %l, use the <a href=\"%s\">iThemes "
+"Licensing</a> page found in the Settings menu."
+msgstr ""
+
+#: lib/updater/admin.php:147 lib/updater/admin.php:153
+#: lib/updater/settings-page.php:302
+msgid "iThemes Licensing"
+msgstr ""
+
+#: lib/updater/api.php:41 lib/updater/api.php:59
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error <code>%1$s</code>: "
+"%2$s</p>"
+msgstr ""
+
+#: lib/updater/api.php:45
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error: Unrecognized "
+"response from <code>wp_remote_get</code>.</p>"
+msgstr ""
+
+#: lib/updater/api.php:49
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error code <code>%1$s</"
+"code>: %2$s</p>"
+msgstr ""
+
+#: lib/updater/api.php:61
+msgid ""
+"<p>Unable to get changelog data at this time.</p><p>Error: Unrecognized "
+"response from iThemes API server.</p>"
+msgstr ""
+
+#: lib/updater/server.php:78
+msgid ""
+"The server could not be contacted. Requests are delayed for %d minute to "
+"allow the server to recover."
+msgid_plural ""
+"The server could not be contacted. Requests are delayed for %d minutes to "
+"allow the server to recover."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/server.php:155
+msgid "The server was unable to be contacted."
+msgstr ""
+
+#: lib/updater/server.php:165
+msgid ""
+"An error occurred when communicating with the iThemes update server: %s (%s)"
+msgstr ""
+
+#: lib/updater/settings-page.php:77
+msgid ""
+"Incorrect password. Please make sure that you are supplying your iThemes "
+"membership username and password details."
+msgstr ""
+
+#: lib/updater/settings-page.php:81
+msgid ""
+"Invalid username. Please make sure that you are supplying your iThemes "
+"membership username and password details."
+msgstr ""
+
+#: lib/updater/settings-page.php:84
+msgid ""
+"The licensing server reports that the %1$s (%2$s) product is unknown. Please "
+"contact support for assistance."
+msgstr ""
+
+#: lib/updater/settings-page.php:87
+msgid ""
+"%1$s could not be licensed since the membership account is out of available "
+"licenses for this product. You can unlicense the product on other sites or "
+"upgrade your membership to one with a higher number of licenses in order to "
+"increase the amount of available licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:90
+msgid ""
+"%s could not be licensed due to an internal error. Please try to license %s "
+"again at a later time. If this problem continues, please contact iThemes "
+"support."
+msgstr ""
+
+#: lib/updater/settings-page.php:96
+msgid ""
+"An unknown error relating to the %1$s product occurred. Please contact "
+"iThemes support. Error details: %2$s"
+msgstr ""
+
+#: lib/updater/settings-page.php:98
+msgid ""
+"An unknown error occurred. Please contact iThemes support. Error details: %s"
+msgstr ""
+
+#: lib/updater/settings-page.php:129 settings-page.php:241
+msgid "Settings saved"
+msgstr ""
+
+#: lib/updater/settings-page.php:136
+msgid ""
+"You must supply an iThemes membership username and password in order to "
+"license products."
+msgstr ""
+
+#: lib/updater/settings-page.php:138
+msgid ""
+"You must supply an iThemes membership username in order to license products."
+msgstr ""
+
+#: lib/updater/settings-page.php:140
+msgid ""
+"You must supply an iThemes membership password in order to license products."
+msgstr ""
+
+#: lib/updater/settings-page.php:142
+msgid ""
+"You must select at least one product to license. Ensure that you select the "
+"products that you wish to license in the listing below."
+msgstr ""
+
+#: lib/updater/settings-page.php:157
+msgid ""
+"An unknown server error occurred. Please try to license your products again "
+"at another time."
+msgstr ""
+
+#: lib/updater/settings-page.php:177
+msgid "Your product subscription has expired"
+msgstr ""
+
+#: lib/updater/settings-page.php:184
+msgid "Successfully licensed %l."
+msgstr ""
+
+#: lib/updater/settings-page.php:188 lib/updater/settings-page.php:193
+msgid "Unable to license %1$s. Reason: %2$s"
+msgstr ""
+
+#: lib/updater/settings-page.php:201
+msgid ""
+"You must supply an iThemes membership username and password in order to "
+"remove licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:203
+msgid ""
+"You must supply an iThemes membership username in order to remove licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:205
+msgid ""
+"You must supply an iThemes membership password in order to remove licenses."
+msgstr ""
+
+#: lib/updater/settings-page.php:207
+msgid ""
+"You must select at least one license to remove. Ensure that you select the "
+"licenses that you wish to remove in the listing below."
+msgstr ""
+
+#: lib/updater/settings-page.php:222
+msgid ""
+"An unknown server error occurred. Please try to remove licenses from your "
+"products again at another time."
+msgstr ""
+
+#: lib/updater/settings-page.php:243
+msgid "Unknown server error."
+msgstr ""
+
+#: lib/updater/settings-page.php:248
+msgid "Successfully removed license from %l."
+msgid_plural "Successfully removed licenses from %l."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:252
+msgid "Unable to remove license from %1$s. Reason: %2$s"
+msgstr ""
+
+#: lib/updater/settings-page.php:324
+msgid "Settings"
+msgstr ""
+
+#: lib/updater/settings-page.php:330
+msgid "Quick Release Updates"
+msgstr ""
+
+#: lib/updater/settings-page.php:337
+msgid "Enable quick release updates"
+msgstr ""
+
+#: lib/updater/settings-page.php:340
+msgid ""
+"Some products have quick releases that are created to solve specific issues "
+"that some users experience. In order to avoid causing users to have updates "
+"show up too frequently, automatic updates to these quick releases are "
+"disabled by default. Enabling this feature allows quick releases to be "
+"available to the automatic update system. Using this option is only "
+"recommended if support has requested that you enable it in order to receive "
+"a quick release. You should disable this option at a later time after "
+"confirming that the quick release solves the issue for you."
+msgstr ""
+
+#: lib/updater/settings-page.php:347
+msgid "Save Settings"
+msgstr ""
+
+#: lib/updater/settings-page.php:366 lib/updater/settings-page.php:397
+#: lib/updater/settings-page.php:521 lib/updater/settings-page.php:589
+msgid "Product"
+msgstr ""
+
+#: lib/updater/settings-page.php:367 lib/updater/settings-page.php:399
+msgid "Member"
+msgstr ""
+
+#: lib/updater/settings-page.php:368 lib/updater/settings-page.php:401
+msgid "Expiration"
+msgstr ""
+
+#: lib/updater/settings-page.php:369 lib/updater/settings-page.php:402
+msgid "Remaining Licenses"
+msgstr ""
+
+#: lib/updater/settings-page.php:385
+msgid "Licensed Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:391 lib/updater/settings-page.php:515
+msgid "Select All"
+msgstr ""
+
+#: lib/updater/settings-page.php:400
+msgid "Product Status"
+msgstr ""
+
+#: lib/updater/settings-page.php:410
+msgid "unlimited"
+msgstr ""
+
+#: lib/updater/settings-page.php:451 lib/updater/settings-page.php:545
+msgid "Select %s"
+msgstr ""
+
+#: lib/updater/settings-page.php:471
+msgid "Remove Licenses"
+msgstr ""
+
+#: lib/updater/settings-page.php:505
+msgid "Unlicensed Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:507
+msgid ""
+"The following products have not been licensed. Licensing a product gives you "
+"access to automatic updates from within WordPress."
+msgstr ""
+
+#: lib/updater/settings-page.php:508
+msgid ""
+"To license products, select the products you wish to license, enter your "
+"iThemes membership username and password, and press the License Products "
+"button."
+msgstr ""
+
+#: lib/updater/settings-page.php:509
+msgid "Need help? <a href=\"%s\">Click here for a quick video tutorial</a>."
+msgstr ""
+
+#: lib/updater/settings-page.php:561
+msgid "License Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:581
+msgid "Unrecognized Products"
+msgstr ""
+
+#: lib/updater/settings-page.php:583
+msgid ""
+"The following products were not recognized by the licensing system. This can "
+"be due to a bug in the product code, a temporary server issue, or because "
+"the product is no longer supported."
+msgstr ""
+
+#: lib/updater/settings-page.php:584
+msgid ""
+"Please check this page again at a later time to see if the problem resolves "
+"itself. If the product remains, please contact <a href=\"%s\">iThemes "
+"support</a> and provide them with the details given below."
+msgstr ""
+
+#: lib/updater/settings-page.php:590
+msgid "Type"
+msgstr ""
+
+#: lib/updater/settings-page.php:591
+msgid "Package"
+msgstr ""
+
+#: lib/updater/settings-page.php:592
+msgid "Version"
+msgstr ""
+
+#: lib/updater/settings-page.php:593
+msgid "Server Response"
+msgstr ""
+
+#: lib/updater/settings-page.php:603
+msgid "Unknown Error"
+msgstr ""
+
+#: lib/updater/settings-page.php:642
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:644
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:646
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:648
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/updater/settings-page.php:651
+msgid "%s ago"
+msgstr ""
+
+#: notice-handler.php:85
+msgid "The Sync server returned an unknown response."
+msgstr ""
+
+#: server.php:191
+msgid ""
+"An unrecognized server response format was received from the iThemes Sync "
+"server."
+msgstr ""
+
+#: settings-page.php:56
+msgid "Are you sure that you wish to unsync this user?"
+msgstr ""
+
+#: settings-page.php:93 settings-page.php:110 settings-page.php:119
+#: settings-page.php:131
+msgid "The user could not be synced."
+msgstr ""
+
+#: settings-page.php:98
+msgid ""
+"<p>The iThemes Sync server was unable to be contacted. WordPress returned "
+"the following error when trying to contact the server:</p><p>%1$s</p><p>If "
+"you continue to experience problems, please contact <a target=\"_blank\" "
+"href=\"%2$s\">iThemes support</a>.</p>"
+msgstr ""
+
+#: settings-page.php:100
+msgid ""
+"<p>The iThemes Sync server was unable to process the request at this time. "
+"Please try again in a few minutes.</p><p>If you continue to experience "
+"problems, please contact <a target=\"_blank\" href=\"%s\">iThemes support</"
+"a>.</p>"
+msgstr ""
+
+#: settings-page.php:111
+msgid ""
+"The sync request failed due to a server communication error. The server sent "
+"a response that did not include a authentication key."
+msgstr ""
+
+#: settings-page.php:120
+msgid ""
+"The sync request failed due to a server communication error. The server sent "
+"a response that did not include a user ID."
+msgstr ""
+
+#: settings-page.php:140
+msgid "Woohoo! Your site has been synced."
+msgstr ""
+
+#: settings-page.php:144
+msgid ""
+"Your user has now used all of the sites available to be added to Sync. More "
+"information can be found on the <a href=\"%s\" target=\"_blank\">iThemes "
+"membership panel</a>."
+msgstr ""
+
+#: settings-page.php:146
+msgid "Your user can Sync 1 additional site."
+msgid_plural "Your user can sync %d additional sites."
+msgstr[0] ""
+msgstr[1] ""
+
+#: settings-page.php:162 settings-page.php:174
+msgid "The user could not be unsynced."
+msgstr ""
+
+#: settings-page.php:183
+msgid "The user was successfully unsynced."
+msgstr ""
+
+#: settings-page.php:268
+msgid "Sync This Site"
+msgstr ""
+
+#: settings-page.php:278
+msgid "Go Manage Your Synced Sites"
+msgstr ""
+
+#: settings-page.php:281
+msgid "Manage Synced Users"
+msgstr ""
+
+#: settings-page.php:283
+msgid ""
+"Sync allows you to sync your site with multiple users.<br>View the list of "
+"synced users below, unsync users if needed, or add additional users below."
+msgstr ""
+
+#: settings-page.php:287
+msgid "Synced Users"
+msgstr ""
+
+#: settings-page.php:302
+msgid "Invalid Users"
+msgstr ""
+
+#: settings-page.php:304
+msgid ""
+"The following users were not recognized by the server. Unsync them and "
+"resync them again to fix this error."
+msgstr ""
+
+#: settings-page.php:322
+msgid "Enter your iThemes username & password to sync this site."
+msgstr ""
+
+#: settings-page.php:324
+msgid "Add Users"
+msgstr ""
+
+#: settings-page.php:325
+msgid ""
+"Add additional users if more than one person will be managing updates for "
+"this site.<br>To sync an additional user, enter their iThemes username and "
+"password below."
+msgstr ""
+
+#: settings-page.php:329
+msgid "Username"
+msgstr ""
+
+#: settings-page.php:332
+msgid "Password"
+msgstr ""
+
+#: settings-page.php:335
+msgid "Sync"
+msgstr ""
+
+#: settings.php:131
+msgid ""
+"The user is not authenticated. Could not remove authentication for the user."
+msgstr ""
+
+#: settings.php:197
+msgid ""
+"A valid user was unable to be found. A valid user is required in order to do "
+"a successful ping."
+msgstr ""
+
+#: social.php:86
+msgid "Social"
+msgstr ""
+
+#: social.php:102
+msgid "This post is already published."
+msgstr ""
+
+#: social.php:119
+msgid "Edit"
+msgstr ""
+
+#: social.php:123
+msgid "Template Tags"
+msgstr ""
+
+#. #-#-#-#-#  ithemes-sync.pot (iThemes Sync 1.8.3)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  ithemes-sync.pot (iThemes Sync 1.8.3)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://ithemes.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Manage updates to your WordPress sites easily in one place."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iThemes"
+msgstr ""

@@ -1,0 +1,25 @@
+{
+  "name": "starter-kit",
+  "description": "WordPress Starter Kit",
+  "main": "",
+  "authors": [
+    "Baltazare"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/guillaumevergano/starter-kit.git",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bxslider-4": "fafnur-bxslider#^4.2.5",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.5.0",
+    "jquery": "^2.2.2",
+    "jquerysmartbanner": "^1.0.5",
+    "html5shiv": "^3.7.3",
+    "respond": "Respond#^1.4.2"
+  }
+}

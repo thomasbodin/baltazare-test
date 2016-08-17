@@ -1,0 +1,147 @@
+/**
+ * Admin bar and left menu adjustments
+ */
+
+#wpadminbar {
+	height: 42px;
+}
+html.wp-toolbar {
+	padding-top: 42px;
+}
+#wpadminbar .quicklinks .ab-empty-item, 
+#wpadminbar .quicklinks a, 
+#wpadminbar .shortlink-input {
+	height: 42px;
+}
+#wpadminbar .quicklinks a,
+#wpadminbar #wp-admin-bar-user-info span {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 40px;
+}
+#wpadminbar #wp-admin-bar-user-info span {
+	height: 26px;
+}
+#wpadminbar .ab-icon, #wpadminbar .ab-item:before, #wpadminbar>#wp-toolbar>#wp-admin-bar-root-default .ab-icon {
+	font-size: 26px;
+	line-height: 1.1em;
+}
+#wpadminbar .quicklinks > ul > li#wp-admin-bar-my-account > a {
+	padding: 0 14px;
+}
+#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar>a img {
+	width: 26px;
+	height: 26px;
+	margin-left: 12px;
+}
+#adminmenu, 
+#adminmenu .wp-submenu, 
+#adminmenuback, 
+#adminmenuwrap {
+	width: 200px;
+}
+#adminmenu {
+	margin: 0;
+}
+#wpcontent, #wpfooter {
+	margin-left: 200px;
+}
+#adminmenu .wp-submenu {
+	left: 200px;
+}
+#adminmenu .wp-submenu a {
+	font-size: 14px;
+	font-weight: 300;
+}
+#adminmenu li.wp-menu-separator {
+	height: 0;
+	margin: 0;
+}
+#adminmenu .wp-not-current-submenu .wp-submenu, 
+.folded #adminmenu .wp-has-current-submenu .wp-submenu {
+	min-width: 200px;
+}
+#adminmenu .wp-submenu-head, 
+#adminmenu a.menu-top {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	min-height: 50px;
+}
+#adminmenu .wp-submenu-head {
+	min-height: 34px;
+}
+div.wp-menu-image:before {
+	padding: 14px 0;
+}
+#adminmenu li.wp-has-submenu.wp-not-current-submenu:hover:after {
+	top: 16px;
+}
+
+#adminmenu .awaiting-mod, 
+#adminmenu .update-plugins, 
+#sidemenu li a span.update-plugins {
+	margin: 7px 0 0 14px;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 19px;
+}
+
+/**
+ * Screen wpbody-content area 
+ */
+
+.wrap {
+	margin-top: 5px;
+}
+#poststuff h3,
+.metabox-holder h3 {
+	padding: 14px 18px;
+	font-size: 16px;
+}
+.js .meta-box-sortables .postbox .handlediv:before, 
+.js .sidebar-name .sidebar-name-arrow:before {
+	right: 18px;
+	padding: 15px 12px;
+}
+.tablenav {
+	height: 48px;
+}
+
+/**
+ * Buttons and form fields
+ */
+ 
+.wp-core-ui .button, 
+.wp-core-ui .button-primary, 
+.wp-core-ui .button-secondary {
+	font-size: 15px;
+	height: 40px;
+	line-height: 38px;
+	padding: 0px 20px 2px;
+}
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+	height: 40px;
+	line-height: 38px;
+	padding: 0px 20px 2px;
+}
+.wp-media-buttons span.wp-media-buttons-icon {
+	line-height: 1em;
+}
+.wp-admin select {
+	line-height: 42px;
+	height: 42px;
+}
+.search-box input[name="s"], 
+.tablenav .search-plugins input[name="s"], 
+.tagsdiv .newtag {
+	height: 42px;
+}
+.wp-editor-tabs .wp-switch-editor {
+	height: 27px;
+	padding: 12px 12px 4px;
+}
+.html-active .wp-editor-tabs .switch-html, 
+.tmce-active .wp-editor-tabs .switch-tmce {
+	height: 28px;
+}
