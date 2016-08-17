@@ -37,15 +37,16 @@ A la fin de votre stage ou si vous savez déjà tout faire, ce test ne devrait p
 
 ### Page films
 - Créer la page "Films" et son template associé (film.php)
-- Créer un Custom Post Type "Films" et insérer 4 films depuis le BO comprenant le titre, l'affiche du film et le synopsis
-- Dans le template film.php, afficher un sous-menu du Custom Post Type qui doit récupérer automatiquement tous les films insérés depuis le BO
+- Créer un Custom Post Type "Films"
+- Insérer 4 films depuis le BO comprenant le titre, l'affiche du film et le synopsis
+- Dans le template film.php, afficher une liste à puce qui affiche le titre de tous les films et un lien vers chacun de ces films
 - Créer un single : single-film.php qui sera le template pour votre Custom Post Type "Films" et qui doit afficher le titre du film, l'affiche et son synopsys
 
 
 # Envoyer votre test
 Une fois votre travaille terminé, il vous suffira de remplacer le fichier baltazare-test.sql par votre base de données puis de faire une pull request.
 
-Si vous avez besoin d'aide ou d'information supplémentaires : thomas@baltazare.fr
+Si vous avez besoin d'aide ou d'informations supplémentaires : thomas@baltazare.fr
 
 
 GL & HF
