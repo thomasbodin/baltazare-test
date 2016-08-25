@@ -70,3 +70,44 @@
         $wp_roles->add_role('client', 'Client', $adm->capabilities);
     }
     add_action('init', 'createRoleClient');
+
+
+    // La fonction ne sera pas utilisée avant le 'init'.
+    add_action( 'init', 'my_custom_init' );
+
+
+    function my_custom_init() {
+            $labels = array(
+            'name' => _x( 'Films', 'post type general name' ),
+            'singular_name' => _x( 'Film', 'post type singular name' ),
+            'add_new' => _x( 'Ajouter nouveau', 'Film' ),
+            'add_new_item' => __( 'Ajouter nouveau Film' ),
+            'edit_item' => __( 'Éditer Film' ),
+            'new_item' => __( 'Nouveau Film' ),
+            'view_item' => __( 'Voir Film' ),
+            'search_items' => __( 'Chercher Films' ),
+            'set_featured_image'    => 'Set featured image',
+            'remove_featured_image' => 'Remove featured image',
+            'use_featured_image'    => 'Use as featured image',
+            'not_found' =>  __( 'Les Films ne se sont pas trouvés' ),
+            'not_found_in_trash' => __( 'Les Films ne se sont pas trouvés dans la papeterie' ),
+            'parent_item_colon' => ''
+        );
+     
+        // Creé dans array pour $args
+        $args = array( 'labels' => $labels,
+            'public' => true,
+            'publicly_queryable' => true,
+            'show_ui' => true,
+            'query_var' => true,
+            'rewrite' => true,
+            'capability_type' => 'post',
+            'hierarchical' => false,
+            'menu_position' => null,
+            'supports' => array( 'title', 'editor', 'thumbnail','page-attributes' ),
+        );
+     
+        register_post_type( 'Film', $args ); 
+    }
+
+   
