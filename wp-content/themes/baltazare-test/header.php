@@ -32,6 +32,9 @@
         <?php $version = filemtime( get_theme_root().'/'.get_template() . '/style/build/main.css' ); ?>
         <link rel="stylesheet" href="<?php bloginfo( 'template_directory' ); ?>/style/build/main.css?v=<?= $version; ?>">
 
+	    <!-- Latest compiled and minified CSS -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
         <!--[if lt IE 9]>
         <script src="<?php bloginfo( 'template_directory' ); ?>/script/build/html5shiv.min.js"></script>
         <script src="<?php bloginfo( 'template_directory' ); ?>/script/build/respond.min.js"></script>
